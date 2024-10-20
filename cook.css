@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    z-index: 4;
+    transition: transform 2s ease ;
+}
+.parent1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+img:hover{
+    content: url("Img_1-Biscotto-al-Cioccolato.png");
+    transform: translateY(-40px);
+    
+}
+hr{
+    height: 2px;
+    background: black;
+    position: relative;
+    top: -70px;
+    z-index: -2;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.parent2{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: -50px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20rem;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+.parent3{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: -50px;
+
+}
+
+span{
+    margin-right: 20px;
+}
+.shiva{
+    margin-top: 50px;
+}
